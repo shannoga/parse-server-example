@@ -14,8 +14,8 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://heroku_0h7mqdq5:75d1ls60kagsujobej9ulvpuob@ds011462.mlab.com:11462/heroku_0h7mqdq5',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'D6P9U6ClTipkBAuQwolXlc4DiypwVjK9oq9x9pjh ',
-  masterKey: process.env.MASTER_KEY || 'ODsesP0PIheUJJAFcONMIeFWfJBHdsse3ZAzCe8q ', //Add your master key here. Keep it secret!
+  appId: process.env.APP_ID || 'D6P9U6ClTipkBAuQwolXlc4DiypwVjK9oq9x9pjh',
+  masterKey: process.env.MASTER_KEY || 'ODsesP0PIheUJJAFcONMIeFWfJBHdsse3ZAzCe8q', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://shira-dev.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
