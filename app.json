@@ -11,15 +11,15 @@
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "D6P9U6ClTipkBAuQwolXlc4DiypwVjK9oq9x9pjh"
+      "value": "myAppId"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "ODsesP0PIheUJJAFcONMIeFWfJBHdsse3ZAzCe8q"
+      "value": "myMasterKey"
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "mongodb://heroku_0h7mqdq5:75d1ls60kagsujobej9ulvpuob@ds011462.mlab.com:11462/heroku_0h7mqdq5"
+      "value": "http://yourappname.herokuapp.com/parse"
     }
   },
   "image": "heroku/nodejs",

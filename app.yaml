@@ -3,9 +3,9 @@ vm: true
 
 env_variables:
   # --REQUIRED--
-  DATABASE_URI: mongodb://heroku_0h7mqdq5:75d1ls60kagsujobej9ulvpuob@ds011462.mlab.com:11462/heroku_0h7mqdq5
-  APP_ID: D6P9U6ClTipkBAuQwolXlc4DiypwVjK9oq9x9pjh
-  MASTER_KEY: ODsesP0PIheUJJAFcONMIeFWfJBHdsse3ZAzCe8q
+  DATABASE_URI: mongodb://localhost:27017/dev
+  APP_ID: <your-app-id>
+  MASTER_KEY: <your-master-key>
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
   # PARSE_MOUNT: /parse
